@@ -16,6 +16,9 @@ public class Client {
 
             pw.println("3"); // requestMsg 요청 메세지
 
+
+
+
             // 버퍼 만들기
             BufferedReader br = new BufferedReader(
                     new InputStreamReader(socket.getInputStream())
