@@ -18,7 +18,6 @@ public class Client {
 
 
 
-
             // 버퍼 만들기
             BufferedReader br = new BufferedReader(
                     new InputStreamReader(socket.getInputStream())
